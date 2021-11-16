@@ -2,81 +2,61 @@
 
 Your contributions are always welcome!
 
+- [Type]
+  - [Grant Payments](#Grant Payments)
+  - [10X Github Open Source Code](#10X Github Open Source Code)
+  - [Risk Management](#Risk Management)
+  - [User Experience](#User Experience)
+  
+## Grant Payments
 - [Initiative]
-  - [FIT/NSF Blockchain for Grants Payments](#p1)
-  - [MITRE Blockchain for Grants Payments](#p2)
-  - [Single Audit Distiller](#p3)
-  - [Audit PDF Extraction](#p4)
-  - [Single Audit Finding Resolution](#p5)
-  - [SF 425 Auto Populator](#p6)
-  - [Recipient Insight](#p7)
-  - [Recipient Seamless User Experience (RUX)](#p8)
+  - [FIT/NSF Blockchain for Grants Payments](#FIT/NSF Blockchain for Grants Payments)
+  - [MITRE Blockchain for Grants Payments](#MITRE Blockchain for Grants Payments)
+  
+## 10X Github Open Source Code  
+ - [Initiative]
+  - [Single Audit Distiller](#Single Audit Distiller)
+  - [Audit PDF Extraction](#Audit PDF Extraction)
+  - [Single Audit Finding Resolution](#Single Audit Finding Resolution)
+  - [SF 425 Auto Populator](#SF 425 Auto Populator)
+  - 
+## Risk Management
+- [Initiative]
+  - [Recipient Insight](#Recipient Insight)
+
+## User Experience
+- [Initiative]
+  - [Recipient Seamless User Experience (RUX)](#Recipient Seamless User Experience (RUX))
 
 
-## p1
+## FIT/NSF Blockchain for Grants Payments
 * [Org Owner] FIT/NSF.
-* [POC] Tammie Johnson - tammie.johnson@fiscal.treasury.gov;
+* [POC] Tammie Johnson - tammie.johnson@fiscal.treasury.gov; Craig Fischer (NONFED) - cfischer@think-dragon.com
 * [Description] FIT/NSF’s “Blockchain for Grant Payments” initiative strives to improve grant payment processes and increase transparency for multi-tiered grant payments. Since 2017, “Blockchain for Grant Payments” has been focused on how grant recipients could use blockchain technology to tokenize (i.e. digitally represent), transfer, and redeem grant payments. The initiative has led to the creation of a small blockchain proof of concept, the development and testing of a blockchain solution to manage FIT/NSF’s cell phone inventory, and provided hands-on experience with the technology. These activities made it clear that blockchain provides many benefits, including increased transparency, reduced financial and labor burden, and enhanced internal controls. It also demonstrated that using blockchain leads to process efficiencies and increased accuracy. It also provides transparency and peer-to-peer transfers of assets without a third party.
-* [Links](https://fiscal.treasury.gov/fit/blog/come-git-your-blockchain-code.html)
+* [Links:] (https://fiscal.treasury.gov/fit/blog/come-git-your-blockchain-code.html)
 (https://fiscal.treasury.gov/fit/blog/five-quick-takeways-on-blockchain.html)
 (https://fiscal.treasury.gov/files/fit/US_FITBlockchain_Final_Compressed.mp4)
 (https://fmvision.fiscal.treasury.gov/blockchain-and-the-possible-future-of-federal-grant-management.html)
 * [GitHub Code] (https://github.com/fiscalservice/fit-blockchain)
 
-## p2
+## MITRE Blockchain for Grants Payments
 
-* [Bistro](https://github.com/facebook/bistro) - general-purpose data processing engine for both batch and stream analytics. It is based on a novel data model, which represents data via *functions* and processes data via *column operations* as opposed to having only set operations in conventional approaches like MapReduce or SQL.
-* [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) - platform for distributed processing and real-time analytics.  Integrates with many of the popular technologies in the Big Data ecosystem (Kafka, HDFS, Spark, etc.)
-* [Apache Hadoop](http://hadoop.apache.org/) - framework for distributed processing. Integrates MapReduce (parallel processing), YARN (job scheduling) and HDFS (distributed file system).
-* [Tigon](https://github.com/caskdata/tigon) - High Throughput Real-time Stream Processing Framework.
-* [Pachyderm](http://pachyderm.io/) - Pachyderm is a data storage platform built on Docker and Kubernetes to provide reproducible data processing and analysis.
-* [Polyaxon](https://github.com/polyaxon/polyaxon) - A platform for reproducible and scalable machine learning and deep learning.
-* [Smooks](https://github.com/smooks/smooks) - An extensible Java framework for building XML and non-XML (CSV, EDI, Java, etc...) streaming applications.
+* [Org Owner] MITRE.
+* [POC] Jasmine Fauber (NONFED) - jfaubert@mitre.org
+* [Description] MITRE is launching a demonstration (proof-of-concept) project to explore whether and to what extent changes in business processes, coupled with use of blockchain (distributed ledger) technology, can streamline administrative burden, improve reporting, and increase transparency in the Grants Management process. The project will develop a working proof-of-concept solution and associated recommendations for solution adoption that address the challenges identified in the previous study (https://www.mitre.org/publications/technical-papers/assessing-the-potential-to-improve-grants-management-using-blockchain)
+* [Links:] NA
+* [GitHub Code] NA
 
-## p3
+## Single Audit Distiller
 
-* [AddThis Hydra](https://github.com/addthis/hydra) - distributed data processing and storage system originally developed at AddThis.
-* [AMPLab SIMR](http://databricks.github.io/simr/) - run Spark on Hadoop MapReduce v1.
-* [Apache APEX](https://apex.apache.org/) - a unified, enterprise platform for big data stream and batch processing.
-* [Apache Beam](https://beam.apache.org/) - an unified model and set of language-specific SDKs for defining and executing data processing workflows.
-* [Apache Crunch](http://crunch.apache.org/) - a simple Java API for tasks like joining and data aggregation that are tedious to implement on plain MapReduce.
-* [Apache DataFu](http://incubator.apache.org/projects/datafu.html) - collection of user-defined functions for Hadoop and Pig developed by LinkedIn.
-* [Apache Flink](http://flink.apache.org/) - high-performance runtime, and automatic program optimization.
-* [Apache Gearpump](http://gearpump.apache.org/) - real-time big data streaming engine based on Akka.
-* [Apache Gora](http://gora.apache.org/) - framework for in-memory data model and persistence.
-* [Apache Hama](http://hama.apache.org/) - BSP (Bulk Synchronous Parallel) computing framework.
-* [Apache MapReduce](https://wiki.apache.org/hadoop/MapReduce/) - programming model for processing large data sets with a parallel, distributed algorithm on a cluster.
-* [Apache Pig](https://pig.apache.org/) - high level language to express data analysis programs for Hadoop.
-* [Apache REEF](http://reef.apache.org/) - retainable evaluator execution framework to simplify and unify the lower layers of big data systems.
-* [Apache S4](http://incubator.apache.org/projects/s4.html) - framework for stream processing, implementation of S4.
-* [Apache Spark](http://spark.apache.org/) - framework for in-memory cluster computing.
-* [Apache Spark Streaming](https://spark.apache.org/docs/latest/streaming-programming-guide.html) - framework for stream processing, part of Spark.
-* [Apache Storm](http://storm.apache.org) - framework for stream processing by Twitter also on YARN.
-* [Apache Samza](http://samza.apache.org/) - stream processing framework, based on Kafka and YARN.
-* [Apache Tez](http://tez.apache.org/) - application framework for executing a complex DAG (directed acyclic graph) of tasks, built on YARN.
-* [Apache Twill](https://incubator.apache.org/projects/twill.html) - abstraction over YARN that reduces the complexity of developing distributed applications.
-* [Baidu Bigflow](http://bigflow.cloud/en/index.html) - an interface that allows for writing distributed computing programs providing lots of simple, flexible, powerful APIs to easily handle data of any scale.
-* [Cascalog](http://cascalog.org/) - data processing and querying library.
-* [Cheetah](http://vldbarc.org/pvldb/vldb2010/pvldb_vol3/I08.pdf) - High Performance, Custom Data Warehouse on Top of MapReduce.
-* [Concurrent Cascading](http://www.cascading.org/) - framework for data management/analytics on Hadoop.
-* [Damballa Parkour](https://github.com/damballa/parkour) - MapReduce library for Clojure.
-* [Datasalt Pangool](https://github.com/datasalt/pangool) - alternative MapReduce paradigm.
-* [DataTorrent StrAM](https://www.datatorrent.com/) - real-time engine is designed to enable distributed, asynchronous, real time in-memory big-data computations in as unblocked a way as possible, with minimal overhead and impact on performance.
-* [Facebook Corona](https://www.facebook.com/notes/facebook-engineering/under-the-hood-scheduling-mapreduce-jobs-more-efficiently-with-corona/10151142560538920) - Hadoop enhancement which removes single point of failure.
-* [Facebook Peregrine](http://peregrine_mapreduce.bitbucket.org/) - Map Reduce framework.
-* [Facebook Scuba](https://www.facebook.com/notes/facebook-engineering/under-the-hood-data-diving-with-scuba/10150599692628920) - distributed in-memory datastore.
-* [Google Dataflow](https://googledevelopers.blogspot.it/2014/06/cloud-platform-at-google-io-new-big.html) - create data pipelines to help themæingest, transform and analyze data.
-* [Google MapReduce](https://research.google.com/archive/mapreduce.html) - map reduce framework.
-* [Google MillWheel](https://research.google.com/pubs/pub41378.html) - fault tolerant stream processing framework.
-* [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) - platform for distributed processing and real-time analytics.  Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box.
-* [JAQL](https://code.google.com/p/jaql/) - declarative programming language for working with structured, semi-structured and unstructured data.
-* [Kite](http://kitesdk.org/docs/current/) - is a set of libraries, tools, examples, and documentation focused on making it easier to build systems on top of the Hadoop ecosystem.
-* [Metamarkets Druid](http://druid.io/) - framework for real-time analysis of large datasets.
-* [Netflix PigPen](https://github.com/Netflix/PigPen) - map-reduce for Clojure which compiles to Apache Pig.
-* [Nokia Disco](http://discoproject.org/) - MapReduce framework developed by Nokia.
-* [Onyx](http://www.onyxplatform.org/) - Distributed computation for the cloud.
+* [Org Owner] GSA 10x.
+* [POC] GSA 10x
+* [Description] MITRE is launching a demonstration (proof-of-concept) project to explore whether and to what extent changes in business processes, coupled with use of blockchain (distributed ledger) technology, can streamline administrative burden, improve reporting, and increase transparency in the Grants Management process. The project will develop a working proof-of-concept solution and associated recommendations for solution adoption that address the challenges identified in the previous study (https://www.mitre.org/publications/technical-papers/assessing-the-potential-to-improve-grants-management-using-blockchain)
+* [Links:] NA
+* [GitHub Code] NA
 
-## p4
+
+## Audit PDF Extraction
 
 * [Ambry](https://github.com/linkedin/ambry) - a distributed object store that supports storage of trillion of small immutable objects as well as billions of large objects.
 * [Apache HDFS](http://hadoop.apache.org/) - a way to store large files across multiple machines.
@@ -97,11 +77,11 @@ Your contributions are always welcome!
 * [Tahoe-LAFS](https://www.tahoe-lafs.org/trac/tahoe-lafs) - decentralized cloud storage system.
 * [Baidu File System](https://github.com/baidu/bfs) - distributed filesystem.
 
-## p5
+## Single Audit Finding Resolution
 
 * [Pilosa](https://github.com/pilosa/pilosa) Open source distributed bitmap index that dramatically accelerates queries across multiple, massive data sets. 
 
-## p6
+## SF 425 Auto Populator
 
 * [Actian Versant](https://www.actian.com/data-management/ingres-sql-rdbms/) - commercial object-oriented database management systems .
 * [Crate Data](https://crate.io/) - is an open source massively scalable data store. It requires zero administration.
@@ -114,7 +94,7 @@ Your contributions are always welcome!
 * [RavenDB](https://ravendb.net/) - A transactional, open-source Document Database.
 * [RethinkDB](https://rethinkdb.com/) - document database that supports queries like table joins and group by.
 
-## p7
+## Recipient Insight
 
 **Note**: There is some term confusion in the industry, and two different things are called "Columnar Databases". Some, listed here, are distributed, persistent databases built around the "key-map" data model: all data has a (possibly composite) key, with which a map of key-value pairs is associated. In some systems, multiple such value maps can be associated with a key, and these maps are referred to as "column families" (with value map keys being referred to as "columns").
 
@@ -140,7 +120,7 @@ You can read more about this distinction on Prof. Daniel Abadi's blog: [Distingu
 * [ScyllaDB](http://www.scylladb.com/) - column-oriented distributed datastore written in C++, totally compatible with Apache Cassandra.
 
 
-## p8
+## Recipient Seamless User Experience (RUX)
 
 * [Aerospike](http://www.aerospike.com/) - NoSQL flash-optimized, in-memory. Open source and "Server code in 'C' (not Java or Erlang) precisely tuned to avoid context switching and memory copies."
 * [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - distributed key/value store, implementation of Dynamo paper.
