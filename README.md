@@ -2,7 +2,7 @@
 
 Your contributions are always welcome!
 
-- Type
+- [Type] (#type)
   - [Grant Payments](#Grant Payments)
   - [10X Github Open Source Code](#10X Github Open Source Code)
   - [Risk Management](#Risk Management)
