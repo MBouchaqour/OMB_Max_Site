@@ -14,10 +14,14 @@ Your contributions are always welcome!
 
 
 ## p1
-* [MySQL](https://www.mysql.com/) The world's most popular open source database.
-* [PostgreSQL](https://www.postgresql.org/) The world's most advanced open source database.
-* [Oracle Database](http://www.oracle.com/us/corporate/features/database-12c/index.html) - object-relational database management system.
-* [Teradata](http://www.teradata.com/products-and-services/teradata-database/) - high-performance MPP data warehouse platform.
+* [Org Owner] FIT/NSF.
+* [POC] Tammie Johnson - tammie.johnson@fiscal.treasury.gov;
+* [Description] FIT/NSF’s “Blockchain for Grant Payments” initiative strives to improve grant payment processes and increase transparency for multi-tiered grant payments. Since 2017, “Blockchain for Grant Payments” has been focused on how grant recipients could use blockchain technology to tokenize (i.e. digitally represent), transfer, and redeem grant payments. The initiative has led to the creation of a small blockchain proof of concept, the development and testing of a blockchain solution to manage FIT/NSF’s cell phone inventory, and provided hands-on experience with the technology. These activities made it clear that blockchain provides many benefits, including increased transparency, reduced financial and labor burden, and enhanced internal controls. It also demonstrated that using blockchain leads to process efficiencies and increased accuracy. It also provides transparency and peer-to-peer transfers of assets without a third party.
+* [Links](https://fiscal.treasury.gov/fit/blog/come-git-your-blockchain-code.html)
+(https://fiscal.treasury.gov/fit/blog/five-quick-takeways-on-blockchain.html)
+(https://fiscal.treasury.gov/files/fit/US_FITBlockchain_Final_Compressed.mp4)
+(https://fmvision.fiscal.treasury.gov/blockchain-and-the-possible-future-of-federal-grant-management.html)
+* [GitHub Code] (https://github.com/fiscalservice/fit-blockchain)
 
 ## p2
 
